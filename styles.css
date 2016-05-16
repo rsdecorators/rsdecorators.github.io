@@ -12,6 +12,14 @@ body{
     
         background: url(bg.bmp);
 }
+
+.header, .center{
+        background: rgba(255,255,255,0.2);
+}
+
+.header{
+        padding: 5px;
+}
 .center{
         width: 100%;
         max-width:300px;
@@ -22,10 +30,10 @@ body{
         bottom: 0;
         left: 0;
         right: 0;
-        height: 220px;
+        height: 250px;
         margin: auto;
             padding: 30px 0;
-    background: rgba(255,255,255,0.6);
+    
     border: solid 2px #797777;
     border-radius: 10px;
       }
@@ -40,10 +48,74 @@ h1{
         margin-bottom: 0;
 }
 
-h1, h2, h3{
+h1, h2, h3, a, span, p{
         font-family: 'Nunito', sans-serif;
 }
+
+p{
+        text-align: center;
+}
+
 h2{
         font-size: 13px;
         margin-top: 0;
+}
+
+.link{
+        background:blue;
+        display:inline-block;
+        margin:auto;
+        margin-bottom: 5px;      
+        border-radius: 5px;       
+}
+
+.link:hover{
+        background:#0202D4;
+}
+
+a{
+        text-decoration: none;
+}
+
+.link a{
+        color:white;
+        font-weight: bold;
+        width:100%;
+        display:block;
+        padding: 7px;
+            box-sizing: border-box;
+                
+}
+
+img, .large-span{
+        vertical-align: middle;
+}
+
+.large-span{
+        font-size: 30px;
+}
+
+.right{
+        float:right;
+}
+
+.icon-link{
+        display:inline-block;
+        margin-right: 20px;
+        background: rgba(2, 2, 2, 0.23);
+        border-radius: 20px;
+}
+
+.icon-link:hover{
+        background: rgba(2, 2, 2, 0.33);
+}
+
+.link-text{
+        margin-left:5px;
+        padding-right:10px;
+        color: black;
+}
+
+.clear-fix{
+        clear: both;
 }
