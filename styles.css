@@ -9,6 +9,8 @@ body{
             background: rgba(5, 37, 47, 0.12);
     width: 100%;
     height: 100%;
+    
+        background: url(bg.bmp);
 }
 .center{
         width: 100%;
@@ -20,11 +22,28 @@ body{
         bottom: 0;
         left: 0;
         right: 0;
-        height: 300px;
+        height: 220px;
         margin: auto;
+            padding: 30px 0;
+    background: rgba(255,255,255,0.6);
+    border: solid 2px #797777;
+    border-radius: 10px;
       }
 #myCanvas{
           position: absolute;
           top:0;
           left:0;
+}
+
+h1{
+        font-size: 35px;
+        margin-bottom: 0;
+}
+
+h1, h2, h3{
+        font-family: 'Nunito', sans-serif;
+}
+h2{
+        font-size: 13px;
+        margin-top: 0;
 }

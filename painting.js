@@ -96,19 +96,22 @@ function paint(){
             paintHeight = 0;
         }
       
-        drawBrush(i * divisionWidth, paintHeight, divisionWidth);
+        drawPaintOnWall(i * divisionWidth, paintHeight, divisionWidth)
+        drawBrush(i * divisionWidth, paintHeight + 20, divisionWidth);
     }
     
 }
 
-function drawBrush(x, y, w){
+function drawPaintOnWall(x,y,w){
     ctx.beginPath();
     ctx.fillStyle = paintColour;
-    ctx.rect(x,0,w,y);
+    ctx.rect(x,0,w,y===0?0:y+20);
     ctx.fill();
     ctx.closePath();
-    
-    if(y > 0){
+}
+
+function drawBrush(x, y, w){    
+    if(y > 20){
         var rollWidth = 40;
         ctx.beginPath();
         ctx.rect(x,y,w,rollWidth);
