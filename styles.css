@@ -129,3 +129,49 @@ img, .large-span{
 .clear-fix{
         clear: both;
 }
+
+.img-grp-outer-div{
+        display: block;
+        }
+        
+.img-grp{
+        text-align: center;
+}
+
+.img-wrp{
+        display: inline-block;
+        margin: 20px;
+}
+
+.img-grp img{
+        display: inline-block;
+        
+}
+
+.img-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    line-height: 150px;
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img-cover:hover{
+    background: rgba(255,255,255,0.2);  
+}
+
+.modal{
+        width:90%;
+        height:90%;
+        position: absolute;
+        top: 0;
+        left:0;
+        right: 0;
+        bottom:0;
+        margin:auto;
+}
