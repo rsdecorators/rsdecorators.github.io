@@ -36,6 +36,16 @@ body{
     
     border: solid 2px #797777;
     border-radius: 10px;
+    
+    
+background: rgba(224,211,211,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(224,211,211,1) 2%, rgba(224,211,211,0.96) 13%, rgba(240,236,235,0.81) 61%, rgba(240,240,240,0.68) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(2%, rgba(224,211,211,1)), color-stop(13%, rgba(224,211,211,0.96)), color-stop(61%, rgba(240,236,235,0.81)), color-stop(100%, rgba(240,240,240,0.68)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(224,211,211,1) 2%, rgba(224,211,211,0.96) 13%, rgba(240,236,235,0.81) 61%, rgba(240,240,240,0.68) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(224,211,211,1) 2%, rgba(224,211,211,0.96) 13%, rgba(240,236,235,0.81) 61%, rgba(240,240,240,0.68) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(224,211,211,1) 2%, rgba(224,211,211,0.96) 13%, rgba(240,236,235,0.81) 61%, rgba(240,240,240,0.68) 100%);
+background: radial-gradient(ellipse at center, rgba(224,211,211,1) 2%, rgba(224,211,211,0.96) 13%, rgba(240,236,235,0.81) 61%, rgba(240,240,240,0.68) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0d3d3', endColorstr='#f0f0f0', GradientType=1 );
       }
 #myCanvas{
           position: absolute;
