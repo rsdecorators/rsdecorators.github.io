@@ -91,6 +91,7 @@ function closeModal(){
     modalBg.className="hidden";
     
     var modal = document.getElementById("the-modal");
+    modal.id="not-the-modal-any-more"
     modal.className="hidden";
     modal.remove();
     
