@@ -165,13 +165,45 @@ img, .large-span{
     background: rgba(255,255,255,0.2);  
 }
 
+#modal-bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height:100%;
+        width:100%;
+        z-index: 2;
+        background: rgba(0,0,0,0.4);
+}
+
+.hidden{
+        display: none;
+}
+
 .modal{
-        width:90%;
-        height:90%;
+        width:90vw;
+        height:90vw;
+        max-height:90%;
         position: absolute;
         top: 0;
         left:0;
         right: 0;
         bottom:0;
         margin:auto;
+        overflow: hidden;
+        z-index:10;
+        border-radius:20px;
+        border: black 2px solid;
+        box-shadow: 5px 5px 12px 0px black;
+}
+
+.close{
+        z-index:11;
+        background:url(pics/close-icon.png);
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-size: cover;
+        cursor:pointer;        
 }
